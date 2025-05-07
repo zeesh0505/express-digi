@@ -1,0 +1,23 @@
+{
+  "name": "product-manager",
+  "version": "1.0.0",
+  "description": "A simple manager for different product",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "express",
+    "product"
+  ],
+  "author": "Zeeshan Haider",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
